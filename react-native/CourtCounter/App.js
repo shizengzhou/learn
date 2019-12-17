@@ -1,5 +1,12 @@
 import React, {Component} from 'react';
-import {View, Text, Button, StyleSheet} from 'react-native';
+import {
+  View,
+  Text,
+  Button,
+  StyleSheet,
+  SafeAreaView,
+  Platform,
+} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -15,7 +22,8 @@ const styles = StyleSheet.create({
   },
   teamName: {
     textAlign: 'center',
-    fontFamily: 'sans-serif-medium',
+    fontFamily:
+      Platform.OS === 'android' ? 'sans-serif-medium' : 'PingFangSC-Medium',
     fontSize: 14,
     color: '#616161',
     paddingTop: 16,
@@ -23,7 +31,8 @@ const styles = StyleSheet.create({
   },
   score: {
     textAlign: 'center',
-    fontFamily: 'sans-serif-light',
+    fontFamily:
+      Platform.OS === 'android' ? 'sans-serif-light' : 'PingFangSC-Light',
     fontSize: 56,
     color: '#000',
     marginBottom: 24,
@@ -113,7 +122,7 @@ class App extends Component {
     const {scoreTeamA, scoreTeamB} = this.state;
 
     return (
-      <View style={styles.container}>
+      <SafeAreaView style={styles.container}>
         <View style={styles.teamContainer}>
           <View style={styles.team}>
             <Text style={styles.teamName}>Team A</Text>
@@ -170,7 +179,7 @@ class App extends Component {
         <View style={styles.resetBtnContainer}>
           <Button color="#FF9800" title="reset" onPress={this.resetScore} />
         </View>
-      </View>
+      </SafeAreaView>
     );
   }
 }
