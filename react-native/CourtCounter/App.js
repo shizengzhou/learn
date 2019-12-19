@@ -1,12 +1,6 @@
 import React, {Component} from 'react';
-import {
-  View,
-  Text,
-  Button,
-  StyleSheet,
-  SafeAreaView,
-  Platform,
-} from 'react-native';
+import {View, Button, StyleSheet, SafeAreaView} from 'react-native';
+import Team from './components/Team';
 
 const styles = StyleSheet.create({
   container: {
@@ -16,36 +10,10 @@ const styles = StyleSheet.create({
   teamContainer: {
     flexDirection: 'row',
   },
-  team: {
-    flex: 1,
-    justifyContent: 'center',
-  },
-  teamName: {
-    textAlign: 'center',
-    fontFamily:
-      Platform.OS === 'android' ? 'sans-serif-medium' : 'PingFangSC-Medium',
-    fontSize: 14,
-    color: '#616161',
-    paddingTop: 16,
-    paddingBottom: 16,
-  },
-  score: {
-    textAlign: 'center',
-    fontFamily:
-      Platform.OS === 'android' ? 'sans-serif-light' : 'PingFangSC-Light',
-    fontSize: 56,
-    color: '#000',
-    marginBottom: 24,
-  },
   line: {
     width: 1,
     backgroundColor: '#aaa',
     marginTop: 16,
-  },
-  pointBtnContainer: {
-    marginLeft: 24,
-    marginRight: 24,
-    marginBottom: 8,
   },
   resetBtnContainer: {
     flexDirection: 'row',
@@ -95,7 +63,7 @@ class App extends Component {
     });
   };
 
-  addTowForTeamB = () => {
+  addTwoForTeamB = () => {
     let {scoreTeamB} = this.state;
     scoreTeamB += 2;
     this.setState({
@@ -124,57 +92,21 @@ class App extends Component {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.teamContainer}>
-          <View style={styles.team}>
-            <Text style={styles.teamName}>Team A</Text>
-            <Text style={styles.score}>{scoreTeamA}</Text>
-            <View style={styles.pointBtnContainer}>
-              <Button
-                color="#FF9800"
-                title="+3 points"
-                onPress={this.addThreeForTeamA}
-              />
-            </View>
-            <View style={styles.pointBtnContainer}>
-              <Button
-                color="#FF9800"
-                title="+2 points"
-                onPress={this.addTwoForTeamA}
-              />
-            </View>
-            <View style={styles.pointBtnContainer}>
-              <Button
-                color="#FF9800"
-                title="free throw"
-                onPress={this.addOneForTeamA}
-              />
-            </View>
-          </View>
+          <Team
+            teamName="Team A"
+            score={scoreTeamA}
+            addThree={this.addThreeForTeamA}
+            addTwo={this.addTwoForTeamA}
+            addOne={this.addOneForTeamA}
+          />
           <View style={styles.line} />
-          <View style={styles.team}>
-            <Text style={styles.teamName}>Team B</Text>
-            <Text style={styles.score}>{scoreTeamB}</Text>
-            <View style={styles.pointBtnContainer}>
-              <Button
-                color="#FF9800"
-                title="+3 points"
-                onPress={this.addThreeForTeamB}
-              />
-            </View>
-            <View style={styles.pointBtnContainer}>
-              <Button
-                color="#FF9800"
-                title="+2 points"
-                onPress={this.addTowForTeamB}
-              />
-            </View>
-            <View style={styles.pointBtnContainer}>
-              <Button
-                color="#FF9800"
-                title="free throw"
-                onPress={this.addOneForTeamB}
-              />
-            </View>
-          </View>
+          <Team
+            teamName="Team B"
+            score={scoreTeamB}
+            addThree={this.addThreeForTeamB}
+            addTwo={this.addTwoForTeamB}
+            addOne={this.addOneForTeamB}
+          />
         </View>
         <View style={styles.resetBtnContainer}>
           <Button color="#FF9800" title="reset" onPress={this.resetScore} />
