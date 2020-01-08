@@ -1,0 +1,102 @@
+<template>
+  <view class="container">
+    <view :style="{ height: statusBarHeight + 'px' }"></view>
+    <view class="content">      
+      <view class="team-container">
+        <team
+          team-name="Team A" 
+          :score="scoreTeamA"
+          @add-three="addThreeForTeamA()"
+          @add-two="addTwoForTeamA()"
+          @add-one="addOneForTeamA()"></team>
+        <view class="line"></view>
+        <team 
+          team-name="Team B" 
+          :score="scoreTeamB"
+          @add-three="addThreeForTeamB()"
+          @add-two="addTwoForTeamB()"
+          @add-one="addOneForTeamB()"></team>
+      </view>
+      <view class="reset-container">
+        <button class="reset-btn" type="primary" @click="reset()">RESET</button>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+  import Team from '../../components/Team.nvue';
+  
+  export default {
+    components: {
+      Team
+    },
+    data() {
+      return {
+        statusBarHeight: 0,
+        scoreTeamA: 0,
+        scoreTeamB: 0
+      };
+    },
+    onLoad() {
+      this.statusBarHeight = uni.getSystemInfoSync().statusBarHeight;
+      console.log(this.statusBarHeight);
+    },
+    methods: {
+      addThreeForTeamA() {
+        this.scoreTeamA += 3;
+      },
+      addTwoForTeamA() {
+        this.scoreTeamA += 2;
+      },
+      addOneForTeamA() {
+        this.scoreTeamA += 1;
+      },
+      addThreeForTeamB() {
+        this.scoreTeamB += 3;
+      },
+      addTwoForTeamB() {
+        this.scoreTeamB += 2;
+      },
+      addOneForTeamB() {
+        this.scoreTeamB += 1;
+      },
+      reset() {
+        this.scoreTeamA = 0;
+        this.scoreTeamB = 0;
+      }
+    }
+  };
+</script>
+
+<style scoped>
+  .container {
+    flex: 1;
+  }
+  
+  .content {
+    flex: 1;
+    justify-content: space-between;
+  }
+  
+  .team-container {
+    flex-direction: row;
+  }
+  
+  .line {
+    width: 2rpx;
+    background-color: #aaa;
+    margin-top: 32rpx;
+  }
+  
+  .reset-container {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 64rpx;
+  }
+  
+  .reset-btn {
+    background-color: #ff9800;
+    border-color: #ff9800;
+  }
+</style>

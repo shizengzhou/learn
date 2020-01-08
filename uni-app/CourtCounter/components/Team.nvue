@@ -1,0 +1,64 @@
+<template>
+  <view class="team">
+    <text class="team-name">{{ teamName }}</text>
+    <text class="team-score">{{ score }}</text>
+    <button class="score-btn" type="primary" @click="onAddThree()">+3 POINTS</button>
+    <button class="score-btn" type="primary" @click="onAddTwo()">+2 POINTS</button>
+    <button class="score-btn" type="primary" @click="onAddOne()">FREE THROW</button>
+  </view>
+</template>
+
+<script>
+  export default {
+    name: 'Team',
+    props: {
+      teamName: {
+        type: String,
+        required: true
+      },
+      score: {
+        type: Number,
+        required: true
+      }
+    },
+    methods: {
+      onAddThree() {
+        this.$emit('addThree');
+      },
+      onAddTwo() {
+        this.$emit('addTwo');
+      },
+      onAddOne() {
+        this.$emit('addOne');
+      }
+    }
+  };
+</script>
+
+<style scoped>
+  .team {
+    flex: 1;
+  }
+  
+  .team-name {
+    padding-top: 32rpx;
+    padding-bottom: 32rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #616161;
+  }
+  
+  .team-score {
+    margin-bottom: 48rpx;
+    font-size: 112rpx;
+    text-align: center;
+  }
+  
+  .score-btn {
+    margin-left: 48rpx;
+    margin-right: 48rpx;
+    margin-bottom: 16rpx;
+    background-color: #ff9800;
+    border-color: #ff9800;
+  }
+</style>
