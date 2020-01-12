@@ -40,7 +40,6 @@
     },
     onLoad() {
       this.statusBarHeight = uni.getSystemInfoSync().statusBarHeight;
-      console.log(this.statusBarHeight);
     },
     methods: {
       addThreeForTeamA() {
