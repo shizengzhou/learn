@@ -44,12 +44,14 @@
     padding-top: 32rpx;
     padding-bottom: 32rpx;
     text-align: center;
+    font-family: 'sans-serif-medium';
     font-size: 28rpx;
     color: #616161;
   }
   
   .team-score {
     margin-bottom: 48rpx;
+    font-family: 'sans-serif-light';
     font-size: 112rpx;
     text-align: center;
   }
