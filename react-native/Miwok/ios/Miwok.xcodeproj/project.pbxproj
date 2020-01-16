@@ -17,6 +17,44 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MiwokTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MiwokTests.m */; };
 		41B0902F48BC2F21C17852C4 /* libPods-MiwokTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38142745CCCA590FA4F0D9EB /* libPods-MiwokTests.a */; };
+		85A0D79E23D0928300EE0175 /* color_green.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77823D0928100EE0175 /* color_green.mp3 */; };
+		85A0D79F23D0928300EE0175 /* phrase_my_name_is.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77923D0928100EE0175 /* phrase_my_name_is.mp3 */; };
+		85A0D7A023D0928300EE0175 /* family_father.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77A23D0928100EE0175 /* family_father.mp3 */; };
+		85A0D7A123D0928300EE0175 /* number_ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77B23D0928100EE0175 /* number_ten.mp3 */; };
+		85A0D7A223D0928300EE0175 /* family_older_brother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77C23D0928100EE0175 /* family_older_brother.mp3 */; };
+		85A0D7A323D0928300EE0175 /* phrase_lets_go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77D23D0928100EE0175 /* phrase_lets_go.mp3 */; };
+		85A0D7A423D0928300EE0175 /* color_black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77E23D0928100EE0175 /* color_black.mp3 */; };
+		85A0D7A523D0928300EE0175 /* color_white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D77F23D0928100EE0175 /* color_white.mp3 */; };
+		85A0D7A623D0928300EE0175 /* color_gray.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78023D0928100EE0175 /* color_gray.mp3 */; };
+		85A0D7A723D0928300EE0175 /* number_eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78123D0928100EE0175 /* number_eight.mp3 */; };
+		85A0D7A823D0928300EE0175 /* family_younger_sister.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78223D0928100EE0175 /* family_younger_sister.mp3 */; };
+		85A0D7A923D0928300EE0175 /* color_brown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78323D0928100EE0175 /* color_brown.mp3 */; };
+		85A0D7AA23D0928300EE0175 /* family_older_sister.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78423D0928100EE0175 /* family_older_sister.mp3 */; };
+		85A0D7AB23D0928300EE0175 /* number_nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78523D0928200EE0175 /* number_nine.mp3 */; };
+		85A0D7AC23D0928300EE0175 /* color_mustard_yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78623D0928200EE0175 /* color_mustard_yellow.mp3 */; };
+		85A0D7AD23D0928300EE0175 /* family_grandfather.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78723D0928200EE0175 /* family_grandfather.mp3 */; };
+		85A0D7AE23D0928300EE0175 /* number_six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78823D0928200EE0175 /* number_six.mp3 */; };
+		85A0D7AF23D0928300EE0175 /* phrase_are_you_coming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78923D0928200EE0175 /* phrase_are_you_coming.mp3 */; };
+		85A0D7B023D0928300EE0175 /* family_grandmother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78A23D0928200EE0175 /* family_grandmother.mp3 */; };
+		85A0D7B123D0928300EE0175 /* family_daughter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78B23D0928200EE0175 /* family_daughter.mp3 */; };
+		85A0D7B223D0928300EE0175 /* number_two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78C23D0928200EE0175 /* number_two.mp3 */; };
+		85A0D7B323D0928300EE0175 /* phrase_come_here.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78D23D0928200EE0175 /* phrase_come_here.mp3 */; };
+		85A0D7B423D0928300EE0175 /* family_son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78E23D0928200EE0175 /* family_son.mp3 */; };
+		85A0D7B523D0928300EE0175 /* phrase_im_feeling_good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D78F23D0928200EE0175 /* phrase_im_feeling_good.mp3 */; };
+		85A0D7B623D0928300EE0175 /* number_seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79023D0928200EE0175 /* number_seven.mp3 */; };
+		85A0D7B723D0928300EE0175 /* color_dusty_yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79123D0928200EE0175 /* color_dusty_yellow.mp3 */; };
+		85A0D7B823D0928300EE0175 /* number_five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79223D0928200EE0175 /* number_five.mp3 */; };
+		85A0D7B923D0928300EE0175 /* phrase_where_are_you_going.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79323D0928200EE0175 /* phrase_where_are_you_going.mp3 */; };
+		85A0D7BA23D0928300EE0175 /* color_red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79423D0928200EE0175 /* color_red.mp3 */; };
+		85A0D7BB23D0928300EE0175 /* number_four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79523D0928200EE0175 /* number_four.mp3 */; };
+		85A0D7BC23D0928300EE0175 /* family_mother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79623D0928200EE0175 /* family_mother.mp3 */; };
+		85A0D7BD23D0928300EE0175 /* family_younger_brother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79723D0928200EE0175 /* family_younger_brother.mp3 */; };
+		85A0D7BE23D0928300EE0175 /* phrase_how_are_you_feeling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79823D0928300EE0175 /* phrase_how_are_you_feeling.mp3 */; };
+		85A0D7BF23D0928300EE0175 /* number_three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79923D0928300EE0175 /* number_three.mp3 */; };
+		85A0D7C023D0928300EE0175 /* number_one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79A23D0928300EE0175 /* number_one.mp3 */; };
+		85A0D7C123D0928300EE0175 /* phrase_im_coming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79B23D0928300EE0175 /* phrase_im_coming.mp3 */; };
+		85A0D7C223D0928300EE0175 /* phrase_what_is_your_name.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79C23D0928300EE0175 /* phrase_what_is_your_name.mp3 */; };
+		85A0D7C323D0928300EE0175 /* phrase_yes_im_coming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85A0D79D23D0928300EE0175 /* phrase_yes_im_coming.mp3 */; };
 		A59DCE904C1A27E9D0B79154 /* libPods-Miwok.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 474DEFF5982F952378B6A55C /* libPods-Miwok.a */; };
 		D9D4910136C6006E0C125B51 /* libPods-Miwok-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7FBFA232C0A5B7C708D08 /* libPods-Miwok-tvOS.a */; };
 		E0431F2C84AE06ACFFC849ED /* libPods-Miwok-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA511E05BAC41726D0C20E /* libPods-Miwok-tvOSTests.a */; };
@@ -61,6 +99,44 @@
 		474DEFF5982F952378B6A55C /* libPods-Miwok.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Miwok.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D39D649155E08D5C06EC14 /* Pods-Miwok-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miwok-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Miwok-tvOS/Pods-Miwok-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		61EA511E05BAC41726D0C20E /* libPods-Miwok-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Miwok-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A0D77823D0928100EE0175 /* color_green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_green.mp3; path = Miwok/color_green.mp3; sourceTree = "<group>"; };
+		85A0D77923D0928100EE0175 /* phrase_my_name_is.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_my_name_is.mp3; path = Miwok/phrase_my_name_is.mp3; sourceTree = "<group>"; };
+		85A0D77A23D0928100EE0175 /* family_father.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_father.mp3; path = Miwok/family_father.mp3; sourceTree = "<group>"; };
+		85A0D77B23D0928100EE0175 /* number_ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_ten.mp3; path = Miwok/number_ten.mp3; sourceTree = "<group>"; };
+		85A0D77C23D0928100EE0175 /* family_older_brother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_older_brother.mp3; path = Miwok/family_older_brother.mp3; sourceTree = "<group>"; };
+		85A0D77D23D0928100EE0175 /* phrase_lets_go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_lets_go.mp3; path = Miwok/phrase_lets_go.mp3; sourceTree = "<group>"; };
+		85A0D77E23D0928100EE0175 /* color_black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_black.mp3; path = Miwok/color_black.mp3; sourceTree = "<group>"; };
+		85A0D77F23D0928100EE0175 /* color_white.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_white.mp3; path = Miwok/color_white.mp3; sourceTree = "<group>"; };
+		85A0D78023D0928100EE0175 /* color_gray.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_gray.mp3; path = Miwok/color_gray.mp3; sourceTree = "<group>"; };
+		85A0D78123D0928100EE0175 /* number_eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_eight.mp3; path = Miwok/number_eight.mp3; sourceTree = "<group>"; };
+		85A0D78223D0928100EE0175 /* family_younger_sister.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_younger_sister.mp3; path = Miwok/family_younger_sister.mp3; sourceTree = "<group>"; };
+		85A0D78323D0928100EE0175 /* color_brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_brown.mp3; path = Miwok/color_brown.mp3; sourceTree = "<group>"; };
+		85A0D78423D0928100EE0175 /* family_older_sister.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_older_sister.mp3; path = Miwok/family_older_sister.mp3; sourceTree = "<group>"; };
+		85A0D78523D0928200EE0175 /* number_nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_nine.mp3; path = Miwok/number_nine.mp3; sourceTree = "<group>"; };
+		85A0D78623D0928200EE0175 /* color_mustard_yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_mustard_yellow.mp3; path = Miwok/color_mustard_yellow.mp3; sourceTree = "<group>"; };
+		85A0D78723D0928200EE0175 /* family_grandfather.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_grandfather.mp3; path = Miwok/family_grandfather.mp3; sourceTree = "<group>"; };
+		85A0D78823D0928200EE0175 /* number_six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_six.mp3; path = Miwok/number_six.mp3; sourceTree = "<group>"; };
+		85A0D78923D0928200EE0175 /* phrase_are_you_coming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_are_you_coming.mp3; path = Miwok/phrase_are_you_coming.mp3; sourceTree = "<group>"; };
+		85A0D78A23D0928200EE0175 /* family_grandmother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_grandmother.mp3; path = Miwok/family_grandmother.mp3; sourceTree = "<group>"; };
+		85A0D78B23D0928200EE0175 /* family_daughter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_daughter.mp3; path = Miwok/family_daughter.mp3; sourceTree = "<group>"; };
+		85A0D78C23D0928200EE0175 /* number_two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_two.mp3; path = Miwok/number_two.mp3; sourceTree = "<group>"; };
+		85A0D78D23D0928200EE0175 /* phrase_come_here.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_come_here.mp3; path = Miwok/phrase_come_here.mp3; sourceTree = "<group>"; };
+		85A0D78E23D0928200EE0175 /* family_son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_son.mp3; path = Miwok/family_son.mp3; sourceTree = "<group>"; };
+		85A0D78F23D0928200EE0175 /* phrase_im_feeling_good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_im_feeling_good.mp3; path = Miwok/phrase_im_feeling_good.mp3; sourceTree = "<group>"; };
+		85A0D79023D0928200EE0175 /* number_seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_seven.mp3; path = Miwok/number_seven.mp3; sourceTree = "<group>"; };
+		85A0D79123D0928200EE0175 /* color_dusty_yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_dusty_yellow.mp3; path = Miwok/color_dusty_yellow.mp3; sourceTree = "<group>"; };
+		85A0D79223D0928200EE0175 /* number_five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_five.mp3; path = Miwok/number_five.mp3; sourceTree = "<group>"; };
+		85A0D79323D0928200EE0175 /* phrase_where_are_you_going.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_where_are_you_going.mp3; path = Miwok/phrase_where_are_you_going.mp3; sourceTree = "<group>"; };
+		85A0D79423D0928200EE0175 /* color_red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = color_red.mp3; path = Miwok/color_red.mp3; sourceTree = "<group>"; };
+		85A0D79523D0928200EE0175 /* number_four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_four.mp3; path = Miwok/number_four.mp3; sourceTree = "<group>"; };
+		85A0D79623D0928200EE0175 /* family_mother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_mother.mp3; path = Miwok/family_mother.mp3; sourceTree = "<group>"; };
+		85A0D79723D0928200EE0175 /* family_younger_brother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = family_younger_brother.mp3; path = Miwok/family_younger_brother.mp3; sourceTree = "<group>"; };
+		85A0D79823D0928300EE0175 /* phrase_how_are_you_feeling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_how_are_you_feeling.mp3; path = Miwok/phrase_how_are_you_feeling.mp3; sourceTree = "<group>"; };
+		85A0D79923D0928300EE0175 /* number_three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_three.mp3; path = Miwok/number_three.mp3; sourceTree = "<group>"; };
+		85A0D79A23D0928300EE0175 /* number_one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = number_one.mp3; path = Miwok/number_one.mp3; sourceTree = "<group>"; };
+		85A0D79B23D0928300EE0175 /* phrase_im_coming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_im_coming.mp3; path = Miwok/phrase_im_coming.mp3; sourceTree = "<group>"; };
+		85A0D79C23D0928300EE0175 /* phrase_what_is_your_name.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_what_is_your_name.mp3; path = Miwok/phrase_what_is_your_name.mp3; sourceTree = "<group>"; };
+		85A0D79D23D0928300EE0175 /* phrase_yes_im_coming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = phrase_yes_im_coming.mp3; path = Miwok/phrase_yes_im_coming.mp3; sourceTree = "<group>"; };
 		B8982D0145D38836EEF7B1EF /* Pods-MiwokTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiwokTests.release.xcconfig"; path = "Target Support Files/Pods-MiwokTests/Pods-MiwokTests.release.xcconfig"; sourceTree = "<group>"; };
 		C9D6E7C81A8EF0B25D8316F2 /* Pods-MiwokTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiwokTests.debug.xcconfig"; path = "Target Support Files/Pods-MiwokTests/Pods-MiwokTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCF7FBFA232C0A5B7C708D08 /* libPods-Miwok-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Miwok-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +201,44 @@
 		13B07FAE1A68108700A75B9A /* Miwok */ = {
 			isa = PBXGroup;
 			children = (
+				85A0D77E23D0928100EE0175 /* color_black.mp3 */,
+				85A0D78323D0928100EE0175 /* color_brown.mp3 */,
+				85A0D79123D0928200EE0175 /* color_dusty_yellow.mp3 */,
+				85A0D78023D0928100EE0175 /* color_gray.mp3 */,
+				85A0D77823D0928100EE0175 /* color_green.mp3 */,
+				85A0D78623D0928200EE0175 /* color_mustard_yellow.mp3 */,
+				85A0D79423D0928200EE0175 /* color_red.mp3 */,
+				85A0D77F23D0928100EE0175 /* color_white.mp3 */,
+				85A0D78B23D0928200EE0175 /* family_daughter.mp3 */,
+				85A0D77A23D0928100EE0175 /* family_father.mp3 */,
+				85A0D78723D0928200EE0175 /* family_grandfather.mp3 */,
+				85A0D78A23D0928200EE0175 /* family_grandmother.mp3 */,
+				85A0D79623D0928200EE0175 /* family_mother.mp3 */,
+				85A0D77C23D0928100EE0175 /* family_older_brother.mp3 */,
+				85A0D78423D0928100EE0175 /* family_older_sister.mp3 */,
+				85A0D78E23D0928200EE0175 /* family_son.mp3 */,
+				85A0D79723D0928200EE0175 /* family_younger_brother.mp3 */,
+				85A0D78223D0928100EE0175 /* family_younger_sister.mp3 */,
+				85A0D78123D0928100EE0175 /* number_eight.mp3 */,
+				85A0D79223D0928200EE0175 /* number_five.mp3 */,
+				85A0D79523D0928200EE0175 /* number_four.mp3 */,
+				85A0D78523D0928200EE0175 /* number_nine.mp3 */,
+				85A0D79A23D0928300EE0175 /* number_one.mp3 */,
+				85A0D79023D0928200EE0175 /* number_seven.mp3 */,
+				85A0D78823D0928200EE0175 /* number_six.mp3 */,
+				85A0D77B23D0928100EE0175 /* number_ten.mp3 */,
+				85A0D79923D0928300EE0175 /* number_three.mp3 */,
+				85A0D78C23D0928200EE0175 /* number_two.mp3 */,
+				85A0D78923D0928200EE0175 /* phrase_are_you_coming.mp3 */,
+				85A0D78D23D0928200EE0175 /* phrase_come_here.mp3 */,
+				85A0D79823D0928300EE0175 /* phrase_how_are_you_feeling.mp3 */,
+				85A0D79B23D0928300EE0175 /* phrase_im_coming.mp3 */,
+				85A0D78F23D0928200EE0175 /* phrase_im_feeling_good.mp3 */,
+				85A0D77D23D0928100EE0175 /* phrase_lets_go.mp3 */,
+				85A0D77923D0928100EE0175 /* phrase_my_name_is.mp3 */,
+				85A0D79C23D0928300EE0175 /* phrase_what_is_your_name.mp3 */,
+				85A0D79323D0928200EE0175 /* phrase_where_are_you_going.mp3 */,
+				85A0D79D23D0928300EE0175 /* phrase_yes_im_coming.mp3 */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -194,7 +308,6 @@
 				C9D6E7C81A8EF0B25D8316F2 /* Pods-MiwokTests.debug.xcconfig */,
 				B8982D0145D38836EEF7B1EF /* Pods-MiwokTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +421,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,8 +450,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A0D7A023D0928300EE0175 /* family_father.mp3 in Resources */,
+				85A0D7B823D0928300EE0175 /* number_five.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				85A0D7AC23D0928300EE0175 /* color_mustard_yellow.mp3 in Resources */,
+				85A0D7B323D0928300EE0175 /* phrase_come_here.mp3 in Resources */,
+				85A0D79E23D0928300EE0175 /* color_green.mp3 in Resources */,
+				85A0D7C123D0928300EE0175 /* phrase_im_coming.mp3 in Resources */,
+				85A0D7A923D0928300EE0175 /* color_brown.mp3 in Resources */,
+				85A0D7B723D0928300EE0175 /* color_dusty_yellow.mp3 in Resources */,
+				85A0D7AE23D0928300EE0175 /* number_six.mp3 in Resources */,
+				85A0D7B123D0928300EE0175 /* family_daughter.mp3 in Resources */,
+				85A0D7B423D0928300EE0175 /* family_son.mp3 in Resources */,
+				85A0D7B923D0928300EE0175 /* phrase_where_are_you_going.mp3 in Resources */,
+				85A0D7B623D0928300EE0175 /* number_seven.mp3 in Resources */,
+				85A0D7B523D0928300EE0175 /* phrase_im_feeling_good.mp3 in Resources */,
+				85A0D7C023D0928300EE0175 /* number_one.mp3 in Resources */,
+				85A0D7A723D0928300EE0175 /* number_eight.mp3 in Resources */,
+				85A0D7BD23D0928300EE0175 /* family_younger_brother.mp3 in Resources */,
+				85A0D7C323D0928300EE0175 /* phrase_yes_im_coming.mp3 in Resources */,
+				85A0D7B023D0928300EE0175 /* family_grandmother.mp3 in Resources */,
+				85A0D7A423D0928300EE0175 /* color_black.mp3 in Resources */,
+				85A0D7BC23D0928300EE0175 /* family_mother.mp3 in Resources */,
+				85A0D7BB23D0928300EE0175 /* number_four.mp3 in Resources */,
+				85A0D7BE23D0928300EE0175 /* phrase_how_are_you_feeling.mp3 in Resources */,
+				85A0D7A823D0928300EE0175 /* family_younger_sister.mp3 in Resources */,
+				85A0D7BF23D0928300EE0175 /* number_three.mp3 in Resources */,
+				85A0D79F23D0928300EE0175 /* phrase_my_name_is.mp3 in Resources */,
+				85A0D7B223D0928300EE0175 /* number_two.mp3 in Resources */,
+				85A0D7A223D0928300EE0175 /* family_older_brother.mp3 in Resources */,
+				85A0D7A623D0928300EE0175 /* color_gray.mp3 in Resources */,
+				85A0D7A523D0928300EE0175 /* color_white.mp3 in Resources */,
+				85A0D7AF23D0928300EE0175 /* phrase_are_you_coming.mp3 in Resources */,
+				85A0D7BA23D0928300EE0175 /* color_red.mp3 in Resources */,
+				85A0D7C223D0928300EE0175 /* phrase_what_is_your_name.mp3 in Resources */,
+				85A0D7AA23D0928300EE0175 /* family_older_sister.mp3 in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				85A0D7A123D0928300EE0175 /* number_ten.mp3 in Resources */,
+				85A0D7A323D0928300EE0175 /* phrase_lets_go.mp3 in Resources */,
+				85A0D7AB23D0928300EE0175 /* number_nine.mp3 in Resources */,
+				85A0D7AD23D0928300EE0175 /* family_grandfather.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     height: 88,
-    textAlignVertical: 'center',
-    padding: 16,
+    lineHeight: 88,
+    paddingLeft: 16,
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',
